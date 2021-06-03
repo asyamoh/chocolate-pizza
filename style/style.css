@@ -3,9 +3,11 @@
 *{
     box-sizing: border-box;
 }
-/* header{
-    display: inline-block;
-} */
+
+#contenir{
+    width:75% ;
+    padding: 20%;
+}
 header div div,#rightHeder{
     display: inline-block;
     
@@ -24,13 +26,20 @@ header div div p{
     font-family: 'Dosis', sans-serif;
     color: rgb(143, 142, 142);
 }
+
+
 hr{
-    size:100%;
+    width: 100%;
     border-top: 6px dotted gray;
 
 }
 
 h2{  
     font-family: 'Open Sans Condensed', sans-serif;
+}
+main section div:nth-child(3) img{
+    background-color: indigo;
+    width:100%
+
 }
 
