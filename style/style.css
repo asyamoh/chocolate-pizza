@@ -16,10 +16,12 @@ header div div,#rightHeder{
 #headerImg{
        float: right; 
        /* width: 20%; */
-       margin-top:5%;
+       margin:  2.5%;
 }
 header div div h1{
     font-family: 'Lobster', cursive;
+    margin: 0%;
+    padding: 0%;
     
 
 }
@@ -27,6 +29,7 @@ header div div h1{
 header div div p{
     font-family: 'Dosis', sans-serif;
     color: rgb(143, 142, 142);
+    margin: 0%;
 }
 
 
@@ -65,7 +68,7 @@ main section div :nth-child(2) {
 
 #mainP {
     text-align: center;
-    font-family: 'Dosis', sans-serif; ;
+    font-family: 'Dosis', sans-serif; 
 }
 
 .input,.checkbox{
@@ -89,9 +92,57 @@ hr{
 
 #vann{
     color: grey;
-    font-family: font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.P{
+    color: grey;
+    font-family:'Stint Ultra Condensed', cursive; 
     
 }
+article div h3 {
+    display: inline-block;
+     margin: 0%; 
+}
+
+
+
+article div p{
+    padding-left:8% ;
+    margin: 0%;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+
+
+footer div h2 {
+    display: flex;
+    flex-direction: row;
+  }
+  footer div h2:before,footer div  h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  footer div  h2:before {
+    margin-right: 10px
+  }
+  footer div h2:after {
+    margin-left: 10px
+  }
+ footer p{
+     text-align: center;
+     font-family: 'Dosis', sans-serif; 
+     color: grey;
+ }
+
 
 
 
