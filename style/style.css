@@ -32,15 +32,17 @@ header div div p{
     margin: 0%;
 }
 
-
+/* 
 hr{
     width: 100%;
     border-top: 6px dotted gray;
 
-}
+} */
 
 h2{  
     font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0%;
+   
  }
 /* main section div:nth-child(3) img{
     background-color: indigo;
@@ -83,12 +85,12 @@ main section div :nth-child(2) {
     font-family: 'Stint Ultra Condensed', cursive;
     color: grey;
 }
-
+/* 
 hr{
     width: 100%;
     border-top: 6px dotted gray;
 
-}
+} */
 
 #vann{
     color: grey;
@@ -98,6 +100,7 @@ hr{
 .P{
     color: grey;
     font-family:'Stint Ultra Condensed', cursive; 
+    margin: 0%;
     
 }
 article div h3 {
@@ -138,13 +141,76 @@ footer div h2 {
     margin-left: 10px
   }
  footer p{
-     text-align: center;
+     text-align:center;
      font-family: 'Dosis', sans-serif; 
      color: grey;
+    padding-right: 15%;
+     
+     
  }
 
 
+#hrr {
+    background-image: url("/img/hr-img.png");
+    padding: 5px;
+    padding-left: 10%;
+    padding-right: 70%;
+    border-left: none;
+    border-top: none;
+    color: rgb(201, 192, 192);
+    
+}
+
+article hr{
+    margin-top: 4%;
+    color: grey;
+}
 
 
+#tick-mark {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
 
+#tick-mark::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 3px;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
 
+#tick-mark::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+main section p{
+    color: rgb(226, 214, 214);
+    margin-top: 0%;
+    font-size: 3mm;
+    display: inline-block;
+   
+}
+
+#prnt{
+   float: right;
+
+}
+
+footer div h2{
+    color: rgb(216, 205, 205);
+}
