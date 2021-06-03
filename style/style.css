@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lobster&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+}
+/* header{
+    display: inline-block;
+} */
+header div div,#rightHeder{
+    display: inline-block;
+    
+}
+#headerImg{
+       float: right; 
+       /* width: 20%; */
+       margin-top:5%;
+}
+header div div h1{
+    font-family: 'Lobster', cursive;
+    
+
+}
+header div div p{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(143, 142, 142);
+}
+hr{
+    padding: 20px;
+}
