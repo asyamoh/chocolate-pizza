@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lobster&family=Open+Sans+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lobster&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     box-sizing: border-box;
@@ -24,5 +25,12 @@ header div div p{
     color: rgb(143, 142, 142);
 }
 hr{
-    padding: 20px;
+    size:100%;
+    border-top: 6px dotted gray;
+
 }
+
+h2{  
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
