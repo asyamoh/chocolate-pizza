@@ -5,8 +5,9 @@
 }
 
 #contenir{
-    width:75% ;
-    padding: 20%;
+    width: 75% ;
+    padding: 0%;
+    margin: auto;
 }
 header div div,#rightHeder{
     display: inline-block;
@@ -37,10 +38,62 @@ hr{
 
 h2{  
     font-family: 'Open Sans Condensed', sans-serif;
-}
-main section div:nth-child(3) img{
+ }
+/* main section div:nth-child(3) img{
     background-color: indigo;
-    width:100%
+    width:100% */
+
+
+
+/* } 
+
+main section div :nth-child(2) img{
+    float: right;
+    width: 50%;
+}
+main section div:first-child {
+    /* display: inline-block; */
+    /* float: left;
+    width:90%; */
+    /* padding-top: 50%; */
+/* 
+}
+
+main section div :nth-child(2) {
+    display: inline-block;
+} */
+
+#mainP {
+    text-align: center;
+    font-family: 'Dosis', sans-serif; ;
+}
+
+.input,.checkbox{
+    padding-left: 30%;
+}
+
+#form   {
+    background-image: url('/img/list-bg.png');
+}
+
+#form{
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: grey;
+}
+
+hr{
+    width: 100%;
+    border-top: 6px dotted gray;
 
 }
+
+#vann{
+    color: grey;
+    font-family: font-family: 'Stint Ultra Condensed', cursive;
+    
+}
+
+
+
+
 
