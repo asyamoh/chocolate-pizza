@@ -116,11 +116,13 @@ article div p{
 }
 
 button{
-    background-color: brown;
-    color: white;
+    background-color: rgb(165, 49, 49);
+    color: whitesmoke;
     float: right;
     width: 20%;
     padding: 10px;
+font-size: 4mm;
+
 }
 
 
